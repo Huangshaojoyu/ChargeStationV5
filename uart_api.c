@@ -108,7 +108,7 @@ void decodeUart3Data(void) {
                 }break;
                 case PANEL_DEVELOP_MODE_TEST_RFID_OPTION:{
                     stSystemInfo.u8System_Flow = eSF_EnginnerMode;
-                    stEngineerModeInfo.u8Engineer_Mode_Flow = eEMF_testRFID;
+                    stEngineerModeInfo.u8Engineer_Mode_Flow = eEMF_testRFID;//1232123123
                 }break;
                 case PANEL_DEVELOP_MODE_TEST_PARAMETER_OPTION:{
                     stSystemInfo.u8System_Flow = eSF_EnginnerMode;
@@ -123,6 +123,7 @@ void decodeUart3Data(void) {
             }
         }break;
         case PANEL_PAGESTART_MODE:{
+            
         }break;
         case PANEL_PAGEVERIFY_MODE:{
         }break;
