@@ -112,7 +112,7 @@ void decodeUart3Data(void) {
                 }break;
                 case PANEL_DEVELOP_MODE_TEST_PARAMETER_OPTION:{
                     stSystemInfo.u8System_Flow = eSF_EnginnerMode;
-                    stEngineerModeInfo.u8Engineer_Mode_Flow = eEMF_testParameter;
+                    stEngineerModeInfo.u8Engineer_Mode_Flow = eEMF_testParameter; // 231
                 }break;
                 case PANEL_DEFAULT_OPTION:{
                     stSystemInfo.u8System_Flow = eSF_EnginnerMode;
